@@ -1,0 +1,13 @@
+
+li a{
+    text-decoration: none;
+    font-size: 30px; 
+    text-align: center;
+  padding: 14px 16px;
+  color: black;
+  background-color: burlywood;
+}
+li a:hover {
+    color: orangered;
+  }
+  

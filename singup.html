@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <center><h1>Creating account is easy!</h1></center>
+    <form onsubmit="return Form()">
+    <div class="sin">
+        <b>First Name</b><br><input type="text" placeholder="Enter your first name.."required><br><br>
+        <b>Middle Name</b><br><input type="text" placeholder="Enter your middle name.."><br><br>  
+        <b>Last Name</b><br><input type="text" placeholder="Enter your last name.."required><br><br>
+        <b>Date of Birth</b><br><input type="date" placeholder="Enter your dob.."required><br><br>
+        <b>Mobile Number</b><br><input type="number" placeholder="Enter your mobile number.."required><br><br>
+        <b>E-mail</b><br><input type="email" placeholder="Enter your e-mail.."required><br><br>
+        <b>Country</b><br><input type="text" placeholder="Enter your country name.."required><br><br>
+        <label for="gender"><b>Gender</b></label>
+        <select name="gender"id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="prefer not to say">Prefer not to say</option>
+
+        </select>
+    
+        <br><br>
+        <b>Create new password</b><br><input type="password"id="pass"placeholder="Enter your password.."required><br><br>
+        
+        <b>Confirm password</b><br><input type="password" id="pasr"placeholder="confirm your password.."required><br><br>  
+        <center><button type="submit"id="cr">Create account</button></center>
+    </div>
+</form>
+   
+    <center><h>or</h></center>
+    <center><h>Already have an account? </h><a href="login.html">Log in</a></center>
+
+    <script src="sign.js"></script>
+</body>
+</html>

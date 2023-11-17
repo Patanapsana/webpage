@@ -1,0 +1,74 @@
+.nav{
+    display: flex;
+   width: 120px;
+    float: right;
+    margin-right: 3%;
+}
+hr{
+    height:19px;
+    margin-top: 10px;
+    margin-left: -7.5px;
+}
+.dd{
+    padding: 10px;
+    margin-left: -8px;
+
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(31, 3, 3);
+    text-shadow: 2px solid black;
+    font-size: 20px;
+    background-color:white
+}
+.pic{
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/3379855/1360/967/m1/fpnw/wm1/q8mbhyffbveq5rn80tfc6z1glvbvwspe2ztxajpe3pkhgvitci56eo9qjscpvj7s-.jpg?1507495664&s=9165f8fe3fdbfd4ea6bfeab2bf7d5729");
+    height: 607px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   transition: width 1s linear;
+ } 
+.pic:hover{
+    animation: pic 10s infinite;
+}
+@keyframes pic{
+    0%{
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/3379855/1360/967/m1/fpnw/wm1/q8mbhyffbveq5rn80tfc6z1glvbvwspe2ztxajpe3pkhgvitci56eo9qjscpvj7s-.jpg?1507495664&s=9165f8fe3fdbfd4ea6bfeab2bf7d5729");
+    height: 607px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    25%{
+        background-image: url("https://img.freepik.com/free-photo/top-view-fast-food-mix-mozzarella-sticks-club-sandwich-hamburger-mushroom-pizza-caesar-shrimp-salad-french-fries-ketchup-mayo-cheese-sauces-table_141793-3998.jpg?w=2000");
+        height: 607px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141353.jpg?w=2000");
+        height: 607px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background-image: url("https://www.indiafilings.com/learn/wp-content/uploads/2021/08/shutterstock_2068990322-1.jpg");
+        height: 607px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url("https://previews.123rf.com/images/martinfredy/martinfredy1801/martinfredy180100008/92656564-home-cookies-on-a-dining-table-unhealthy-sweet-food-dangers-of-obesity-and-diabetes.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.tt{
+    position: absolute;
+   margin-top: 13%;
+   margin-left: 40%;
+    font-size: xx-large;
+    color: rgb(12, 12, 12);
+    background-color: azure;
+    
+}

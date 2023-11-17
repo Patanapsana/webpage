@@ -1,0 +1,15 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/cute-food-pattern-design-yellow-background_8830-484.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+input{
+    height: 20px;
+    width: 800px;
+}
+.sin{
+    margin-left: 20%;
+    background-color: rgba(243, 169, 9, 0.3);
+    width: 820px;
+}

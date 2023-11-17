@@ -1,0 +1,362 @@
+.pic{
+    position:  absolute;
+    font-size:60px;
+    justify-content: left;
+    display: flex;
+    color: rgb(252, 103, 49);
+    
+}
+ ul {
+   
+   overflow: hidden;
+    position: absolute;
+    list-style-type: none;
+    margin-top: 1%;
+    margin-left:60%;
+    gap:2%;
+}
+.h{
+  position: absolute;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 30px; 
+    text-align: center;
+  padding: 14px 16px;
+  color: black;
+}
+li a:hover {
+    color: blue;
+  }
+  .cc,.n,.p{
+    height: 150px;
+  }
+.ww{
+    margin-top: 1.5%;
+    background-color:white;
+}
+.i{
+    margin-top: 1.5%;
+    height: 30px;
+    width: 500px;
+}
+.btn{
+margin-top: -2%;
+margin-left: 1%;
+}
+
+.pro{
+    
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 1%;
+}
+.s{
+   
+     height: 150px; 
+     
+}
+.g{
+    margin-left: 5%;
+}
+
+.it{
+    display: flex;
+    gap: 20px;
+    
+}
+.pi{
+    height: 150px;
+    
+}
+.bi{
+    height: 150px;
+}
+h3 {
+    display: flex;
+    flex-direction: row;
+}
+  
+h3:before,
+h3:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+}
+.scroll{
+    font-size: 30px;
+}
+.scroller {
+    height: 1.2em;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: 5em;
+    
+  }
+  .hea{
+    position: relative;
+   margin-top: 1%;
+   
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  a{
+    text-decoration: none;
+  }
+  .lo{
+    margin-top: 3%;
+    animation: color-change 2s linear infinite;
+  }
+  @keyframes color-change{
+    0%{
+        color:black;
+        
+    }
+    25%{
+            color:red;
+        
+    }
+    50%{
+        color:blue;
+        
+    }
+    75%{
+        color:blueviolet;
+        
+    }
+    100%{
+        color:crimson;
+        
+    }
+  }
+  .scroller > span {
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;
+    font-weight: bold;
+    
+  }
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -1.2em;
+    }
+    50% {
+      top: -2.4em;
+    }
+    75% {
+      top: -3.6em;
+    }
+  }
+  .tw{
+    display: flex;
+    gap: 20px;
+  }
+  .pa{
+    height: 150px;
+  }
+  .ic{
+    height:150px
+  }
+  .mi{
+    height: 150px;
+
+  }
+  .sa{
+    height:150px;
+    width: 208px;
+  }
+  .fr{
+    height:150px;
+    
+  }
+  .o{
+    height:150px;
+    width: 140px;
+  }
+  .th{
+    display: flex;
+    gap:20px;
+  }
+  .fi{
+    height:150px;
+    width:250px;
+  }
+  .man{
+    height:150px;
+    width:220px;
+  }
+  .pas{
+    height:150px;
+    width:202px;
+  }
+  .sou{
+
+    height:150px;
+    width:200px;
+  }
+  .cof{
+    height:150px;
+    width:210px
+  }
+  .id{
+    height:150px;
+    width:140px;
+  }
+  .bur{
+    display: flex;
+    gap:20px;
+   
+  }
+  h4{
+ position:relative;
+      margin-left: 2%;
+      color:black;
+}
+.bur .pp:hover {
+    color:orangered;
+}
+.pizza .pp:hover{
+    color:orangered;
+}
+.pizza{
+    display:flex;
+    gap:20px;
+}
+.biry{
+  display:flex;
+    gap:20px;
+}
+.biry .pp:hover{
+  color:orangered;
+}
+.cake .pp:hover{
+  color:orangered;
+}
+.cake{
+  display:flex;
+    gap:20px;
+}
+.nood{
+  display:flex;
+  gap:20px;
+}
+.nood .pp:hover{
+  color:orangered;
+}
+.nood img:hover{
+  width:242px;
+  height:154px;
+}
+.chat{
+  display:flex;
+  gap:20px;
+}
+.chat .pp:hover{
+  color:orangered;
+}
+.par{
+  display:flex;
+  gap:20px;
+}
+.par .pp:hover{
+  color:orangered;
+}
+.ice{
+  display:flex;
+  gap:20px;
+}
+.ice .pp:hover{
+  color:orangered;
+}
+.milk{
+  display:flex;
+  gap:20px;
+}
+.milk .pp:hover{
+  color:orangered;
+}
+.san{
+  display:flex;
+  gap:20px;
+}
+.san .pp:hover{
+  color:orangered;
+}
+.fri{
+  display:flex;
+  gap:20px;
+}
+.fri .pp:hover{
+  color:orangered;
+}
+.dosa{
+  display:flex;
+  gap:20px;
+}
+.dosa .pp:hover{
+  color:orangered;
+}
+.fish{
+  display:flex;
+  gap:20px;
+}
+.fish .pp:hover{
+  color:orangered;
+}
+.pas{
+  display: flex;
+  color:orangered
+}
+.fish .pp:hover{
+  color:orangered;
+}
+.uu{
+  margin-top: 1%;
+}
+.order{
+  margin-top: 18%;
+  animation: color-change 2s linear infinite;
+}
+@keyframes color-change{
+  0%{
+      color:black;
+      
+  }
+  25%{
+          color:red;
+      
+  }
+  50%{
+      color:blue;
+      
+  }
+  75%{
+      color:blueviolet;
+      
+  }
+  100%{
+      color:crimson;
+      
+  }
+}
+.body{
+  background-color: pink;
+ 
+}
+.abou{
+  background-color: black;
+  color:white;
+}
+.con input{
+  width:500px;
+}
+.ee{
+  color: gray;
+}
